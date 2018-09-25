@@ -36,9 +36,9 @@ class App extends Component {
       
         </Wrapper>
           <footer className="footer bg-dark">
-            <div class="container">
+            <div className="container">
             <img src={logo} className="App-logo" alt="logo" />
-              <span class="text-muted">My First React App</span>
+              <span className="text-muted">My First React App</span>
             </div>
             </footer>
       </React.Fragment>

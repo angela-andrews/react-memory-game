@@ -23,17 +23,7 @@ class App extends Component {
          </header>
           <p className="App-intro">Click on a character only once.....</p>
         <Wrapper>
-        {/* {
-            hillman.map(character =>
-              <HillmanCard 
-              src={character.image}
-              data-id={character.id}
-              alt={character.name}
-
-                    
-              />
-              )
-        } */}
+     
        {this.state.hillman.map(character => 
           <HillmanCard
             id={character.id}

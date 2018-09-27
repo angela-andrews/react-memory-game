@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import HillmanCard from './components/HillmanCard';
 import Wrapper from "./components/Wrapper";
 import hillman from "./hillman.json";
-
 import logo from './logo.svg';
 import './App.css';
 
@@ -14,6 +13,8 @@ class App extends Component {
     score: 0,
     topScore: 0
   }
+
+  
 
   render() {
     return (

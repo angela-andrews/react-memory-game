@@ -2,16 +2,18 @@ import React from "react";
 // import hillman from "../../hillman.json"
 import "./HillmanCard.css";
 
-class HillmanCard extends React.Component {
-    render() {
-      return(
+const HillmanCard = props => (
+  
         <div className = "card">
-        <div className = "img-container">
-          <img src={this.props.image} alt={this.props.name} data-id={this.props.id}/>
+        <div className = "img-container" 
+            value = {props.key} 
+            onClick={() => props.handleClick(props.id)}
+            >
+          <img src={props.image} alt={props.name} data-id={props.id}/>
         </div>
        </div>
       );
-    };
-  };
+   
+  
 
 export default HillmanCard;
